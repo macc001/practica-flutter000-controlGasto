@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "429864392434",
+    "firebase_url": "https://flutter-controlgasto00.firebaseio.com",
+    "project_id": "flutter-controlgasto00",
+    "storage_bucket": "flutter-controlgasto00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429864392434:android:14aece61cf2a0fd6c3a26b",
+        "android_client_info": {
+          "package_name": "com.example.control_gasto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429864392434-s5duodb1rjj6rroftismnkht9981h1i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFDuubHM3-HW3e0aCSgWl_SiYdeWT6qKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429864392434-s5duodb1rjj6rroftismnkht9981h1i4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,9 +1,38 @@
-## version 00
+## version 01
+
+    agregando firebase
+
+## firebase configuraciones
+
+    nombre_proyecto en firebase -->flutter-controlGasto00
+    -android
+        nombre_proyecto nos dirigimos a
+            <root>/android/app/src/main/AndroidManifest.xml
+        package="com.example.control_gasto"
+        ó tambien nos dirigimos a
+            <root>/android/app/build.gradle
+             defaultConfig {
+                applicationId "com.example.control_gasto"
+
+        con nombre proyecto nos registramos en firebase
+        luego descargamos archivo json y pegamos en
+            <root>/android/app/
+
+        agregamos lo siguiente en la ruta de
+            <root>/android/build.gradle
+         dependencies {
+              classpath 'com.android.tools.build:gradle:3.5.0'
+              classpath 'com.google.gms:google-services:4.3.3'
+        agregamos lo siguiente en la ruta de
+             <root>/android/app/build.gradle
+         apply plugin: 'com.android.application'
+         apply plugin: 'com.google.gms.google-services'
 
 # librerias
 
     font_awesome_flutter: ^8.8.1
     charts_flutter: ^0.9.0
+    cloud_firestore: ^0.13.5
 
 ## splasScreem
 
