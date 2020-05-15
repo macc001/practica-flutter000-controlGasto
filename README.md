@@ -28,6 +28,18 @@
          apply plugin: 'com.android.application'
          apply plugin: 'com.google.gms.google-services'
 
+
+    Cuando tu app y las bibliotecas a las que hace referencia superan los 65,536 métodos, se produce un error de compilación que indica que tu app alcanzó el límite de la arquitectura de compilación de Android:
+    https://developer.android.com/studio/build/multidex?hl=es
+    errores solucion, agregar lo siguiente
+    ruta es  <root>/android/app/build.gradle
+        dependencies {
+        implementation 'com.android.support:multidex:1.0.3'
+        }
+        defaultConfig {
+            multiDexEnabled true
+        }
+
 # librerias
 
     font_awesome_flutter: ^8.8.1
